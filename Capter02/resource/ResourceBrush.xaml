@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Capter02.resource">
+
+
+
+    <FontFamily x:Key="fontFamily">Time New Roman</FontFamily>
+    <LinearGradientBrush x:Key="BrushRainbow">
+        <GradientStop Offset="0" Color="Red" />
+        <GradientStop Offset="0.17" Color="Orange" />
+        <GradientStop Offset="0.33" Color="Yellow" />
+        <GradientStop Offset="0.5" Color="Green" />
+        <GradientStop Offset="0.67" Color="Blue" />
+        <GradientStop Offset="0.83" Color="Indigo" />
+        <GradientStop Offset="1" Color="Violet" />
+    </LinearGradientBrush>
+
+
+
+    <LinearGradientBrush x:Key="BrushGray">
+        <GradientStop Offset="0" Color="Black" />
+        <GradientStop Offset="0.5" Color="White" />
+        <GradientStop Offset="1" Color="Black" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>

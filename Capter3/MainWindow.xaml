@@ -1,0 +1,16 @@
+﻿<Window x:Class="Capter3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:MaruMouseBehaviour="clr-namespace:MaruWPFDll.Behaviour;assembly=MaruWPFDll"
+        xmlns:local="clr-namespace:Capter3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" MaruMouseBehaviour:MouseBehaviour.MouseUpCommand="{Binding MouseUpCommand}">
+        <TextBlock 
+            Name="tbBlk" FontSize="96" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Click" MouseDown="tbBlk_MouseDown"></TextBlock>
+        <Rectangle  Width="100" Height="100" Fill="Blue">
+        </Rectangle>
+    </StackPanel>
+</Window>
