@@ -1,0 +1,24 @@
+﻿<Window x:Class="Capter4.ScrollViewerTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capter4"
+        mc:Ignorable="d"
+        Title="ScrollViewerTest" Height="450" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="2"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="0" Style="{Binding appleAcrollViewer}">
+            <StackPanel x:Name="stackPanel"></StackPanel>
+        </ScrollViewer>
+        <Rectangle Grid.Row="1" Fill="Black" Height="2"></Rectangle>
+        <local:UCScolll Grid.Row="2">
+            
+        </local:UCScolll>
+    </Grid>
+</Window>

@@ -55,6 +55,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ColorItem.xaml.cs">
+      <DependentUpon>ColorItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColorViewerWindow.xaml.cs">
+      <DependentUpon>ColorViewerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ScrollViewerTest.xaml.cs">
+      <DependentUpon>ScrollViewerTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TextOnCanvasWindow.xaml.cs">
+      <DependentUpon>TextOnCanvasWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TheTaleOfTomKitten.xaml.cs">
+      <DependentUpon>TheTaleOfTomKitten.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UCScolll.xaml.cs">
+      <DependentUpon>UCScolll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhatSize.xaml.cs">
+      <DependentUpon>WhatSize.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ColorItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ColorViewerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +96,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ScrollViewerTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TextOnCanvasWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TheTaleOfTomKitten.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UCScolll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhatSize.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +142,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaruWPFDll\MaruWPFDll.csproj">
+      <Project>{77735382-a5ab-4c6a-bf41-5ccfc8e55228}</Project>
+      <Name>MaruWPFDll</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tom04.jpg" />
+    <Resource Include="Images\tom05.jpg" />
+    <Resource Include="Images\tom08.jpg" />
+    <Resource Include="Images\tom11.jpg" />
+    <Resource Include="Images\tom12.jpg" />
+    <Resource Include="Images\tom15.jpg" />
+    <Resource Include="Images\tom16.jpg" />
+    <Resource Include="Images\tom19.jpg" />
+    <Resource Include="Images\tom20.jpg" />
+    <Resource Include="Images\tom23.jpg" />
+    <Resource Include="Images\tom24.jpg" />
+    <Resource Include="Images\tom27.jpg" />
+    <Resource Include="Images\tom28.jpg" />
+    <Resource Include="Images\tom31.jpg" />
+    <Resource Include="Images\tom32.jpg" />
+    <Resource Include="Images\tom35.jpg" />
+    <Resource Include="Images\tom36.jpg" />
+    <Resource Include="Images\tom39.jpg" />
+    <Resource Include="Images\tom40.jpg" />
+    <Resource Include="Images\tom43.jpg" />
+    <Resource Include="Images\tom44.jpg" />
+    <Resource Include="Images\tom47.jpg" />
+    <Resource Include="Images\tom48.jpg" />
+    <Resource Include="Images\tom51.jpg" />
+    <Resource Include="Images\tom52.jpg" />
+    <Resource Include="Images\tom55.jpg" />
+    <Resource Include="Images\tom57.jpg" />
+    <Resource Include="Images\tom58.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

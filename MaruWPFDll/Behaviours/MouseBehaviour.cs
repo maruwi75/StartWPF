@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 
-namespace MaruWPFDll.Behaviour
+namespace MaruWPFDll.Behaviours
 {
     public class MouseBehaviour
     {
 
+        #region MouseUpCommand
 
         public static readonly DependencyProperty MouseUpCommandProperty =
             DependencyProperty.RegisterAttached(
@@ -44,5 +45,7 @@ namespace MaruWPFDll.Behaviour
         {
             element.SetValue(MouseUpCommandProperty, value);
         }
+
+        #endregion
     }
 }
