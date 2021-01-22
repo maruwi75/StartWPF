@@ -10,5 +10,6 @@
                 <ResourceDictionary Source="Common/ResourceTextBlock.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+      ssss
     </Application.Resources>
 </Application>
